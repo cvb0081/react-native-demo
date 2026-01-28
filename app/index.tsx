@@ -1,10 +1,9 @@
-import React from "react"
-import {View, Text, Image, ScrollView, TextInput} from 'react-native';
+import {View, Text} from 'react-native';
 
 const App = () =>{
 return(
     <View>
-    <Text>Welcome to React Native!</Text>
+    <Text>Working demo React Native!</Text>
 </View>
 )
 }
