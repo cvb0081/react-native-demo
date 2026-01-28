@@ -1,11 +1,11 @@
 import { View, Text } from "react-native";
-import React from "react";
 
-const HomeScreen = () => {
+const WelcomeCard = ({ title, subtitle }) => {
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 20, fontWeight: "bold", alignSelf: "center" }}>
-        Home Screen
+      <Text>
+        {" "}
+        TITLE : {title} : {"\n"} {subtitle}
       </Text>
     </View>
   );
@@ -24,4 +24,5 @@ const styles = {
     marginRight: 10,
   },
 };
-export default HomeScreen;
+
+export default WelcomeCard;
